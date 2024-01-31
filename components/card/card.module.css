@@ -1,0 +1,42 @@
+.card__back{
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 6px;
+    border: 1px solid #E5E7EB;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(174, 174, 174, 0.25);
+}
+
+.name__txt{
+    color: #0F172A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+
+.des__txt{
+    color: #0F172A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.date__txt{
+    color: #64748B;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
